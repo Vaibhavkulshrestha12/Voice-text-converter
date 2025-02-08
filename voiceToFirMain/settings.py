@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".railway.app",]
+ALLOWED_HOSTS = ["voice-text-converter-production.up.railway.app","localhost"]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://voice-text-converter-production.up.railway.app',  # Add your Railway domain here
