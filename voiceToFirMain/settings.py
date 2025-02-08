@@ -30,7 +30,7 @@ DEBUG = False
 ALLOWED_HOSTS = [".railway.app",]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://sos-apis-production.up.railway.app',  # Add your Railway domain here
+    'https://voice-text-converter-production.up.railway.app',  # Add your Railway domain here
 ]
 
 
